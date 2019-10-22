@@ -2,10 +2,8 @@
 
 # dependencies
 /node_modules
-package-lock.json
 /.pnp
 .pnp.js
-/api/package-lock.json
 
 # testing
 /coverage
