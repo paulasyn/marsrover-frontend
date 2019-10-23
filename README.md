@@ -1,21 +1,24 @@
-# marsrover
-Simple application to consume NASA Mars Rover API
+# marsrover-frontend
+The frontend UI to initiate consuming the NASA Mars Rover API
 
 ## Cloning and Building
 
-Clone the repo using `<git clone https://github.com/paulasyn/marsrover.git>`
+If you have not, pleasre refer to `<https://github.com/paulasyn/marsrover.git>` in order to expose the backend.
 
-Navigate to the directory within "marsrover" and open the project "nasa-pic" in your IDE of choice.
+This guid assumes that you have the Spring Boot backend up and running.
 
-In the terminal, pull the dependencies by running `<mvn clean install>`
+Clone the repo using `<git clone https://github.com/paulasyn/marsrover-frontend.git>`
 
-To run unit tests and create jacoco exec code coverage file, run `<mvn test>`
+Navigate to the directory within marsrover-frontend
 
-To view code coverage (using IntelliJ) go to Analyze > Show Coverage Data
-  1. Click the plus sign
-  1. Select nasa-pic/target/jacoco.exec
-  1. Click "Show selected"
+In the terminal, pull the dependencies by running `<npm install>`
 
-To run the project, run `<mvn spring-boot:run>`
+Now that you have pulled all the dependencies, you can run `<npm start>`
+
+In thr UI there will be a button to kickoff the API request to download the photos to local.
+
+Click the button and see the output in your IDE console.
+
+
 
 After running the project, photos pulled using the NASA API can be found in `<marsrover/nasa-pic/photos>`
