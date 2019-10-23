@@ -3,7 +3,7 @@ The frontend UI to initiate consuming the NASA Mars Rover API
 
 ## Cloning and Building
 
-If you have not, please refer to `https://github.com/paulasyn/marsrover` in order to expose the backend.
+If you have not, please refer to <https://github.com/paulasyn/marsrover> in order to expose the backend.
 
 This guide assumes that you have the Spring Boot backend up and running.
 
